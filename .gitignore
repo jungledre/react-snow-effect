@@ -1,8 +1,8 @@
 # Standard Node Ignored
-/node_modules/
-/dist/
-/coverage/
-/lib/
+node_modules
+dist
+coverage
+lib
 
 # Mac stuff
 .DS_Store
