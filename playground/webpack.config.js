@@ -9,7 +9,6 @@ module.exports = {
             { test: /\.jsx?$/, loader: "babel-loader" },
         ]
     },
-    devtool: "source-map",
     resolve: {
         extensions: [
             "",

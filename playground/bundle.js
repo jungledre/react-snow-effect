@@ -19710,7 +19710,7 @@
 
 	'use strict';
 
-	module.exports = 'snow.js';
+	module.exports = 'lib/snow.js';
 
 /***/ }
 /******/ ]);

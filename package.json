@@ -2,10 +2,10 @@
   "name": "react-snow-effect",
   "version": "1.0.4",
   "description": "let it snow",
-  "main": "react-snow-effect.js",
+  "main": "snow.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "compile": "webpack"
+    "prepublish": "./node_modules/.bin/babel -d ./ src/"
   },
   "keywords": [
     "snow",
@@ -21,10 +21,8 @@
     "react": "^0.14.3"
   },
   "devDependencies": {
-    "babel-core": "^6.3.17",
-    "babel-loader": "^6.2.0",
+    "babel-cli": "^6.3.17",
     "babel-preset-es2015": "^6.3.13",
-    "babel-preset-react": "^6.3.13",
-    "webpack": "^1.12.9"
+    "babel-preset-react": "^6.3.13"
   }
 }

@@ -13,7 +13,7 @@
   "dependencies": {
     "react": "^0.14.3",
     "react-dom": "^0.14.3",
-    "react-snow-effect": "^1.0.3"
+    "react-snow-effect": "^1.0.4"
   },
   "devDependencies": {
     "babel-core": "^6.3.17",
