@@ -1,6 +1,7 @@
-import React from 'react';
+var React = require('react');
 
 export default React.createClass({
+
     componentDidMount: function () {
         //canvas init
         var canvas = document.getElementById("canvas");

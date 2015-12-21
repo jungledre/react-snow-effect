@@ -1,1 +1,3 @@
-module.exports = 'lib/snow.js';
+import Snow from './src/snow';
+
+exports = Snow;
