@@ -11,4 +11,5 @@ script:
 
 deploy:
     provider: npm
+    email: adrie.k@gmail.com
     api_key: NPM_REGISTRY_AUTH_TOKEN
