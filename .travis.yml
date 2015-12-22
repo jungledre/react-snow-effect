@@ -1,0 +1,14 @@
+language: node_js
+
+node_js:
+  - "0.10"
+  - "0.12"
+  - "4.2"
+
+script:
+  - npm --version
+  - npm run prepublish
+
+deploy:
+    provider: npm
+    api_key: NPM_REGISTRY_AUTH_TOKEN
