@@ -14,4 +14,8 @@ tsd.json
 typings/
 jsconfig.json
 
+# intelliJ
 .idea
+
+# app specific
+playground/bundle.js.map

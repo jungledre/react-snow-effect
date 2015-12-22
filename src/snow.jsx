@@ -4,8 +4,8 @@ export default React.createClass({
 
 	componentDidMount: function () {
 		//canvas init
-		var canvas = document.getElementById("canvas");
-		var ctx = canvas.getContext("2d");
+		var canvas = document.getElementsByClassName("react-snow-effect-canvas");
+		var ctx = canvas[0].getContext("2d");
 
 		//canvas dimensions
 		var W = document.innerWidth || 1600;
@@ -89,13 +89,17 @@ export default React.createClass({
 		setInterval(draw, 33);
 	},
 
+	componentWillUnmount: function () {
+		clearInterval();
+	},
+
 	render: function() {
 		var snowStyles = {
 			position: 'absolute',
     		top: 0
 		}
 		return (
-			<canvas id="canvas" style={snowStyles}></canvas>
+			<canvas className="react-snow-effect-canvas" style={snowStyles}></canvas>
 		)
 	}
 
