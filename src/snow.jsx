@@ -6,8 +6,8 @@ export default React.createClass({
         return {
             intervalTracker: null,
             canvasCtx: null,
-            canvasWidth: document.innerWidth || 1600,
-            canvasHeight: document.innerHeight || 500
+            width: window.innerWidth || 1600,
+            height: window.innerHeight || 500
         }
     },
 
@@ -19,10 +19,8 @@ export default React.createClass({
         this.setState({canvasCtx: ctx});
 
         //canvas dimensions
-        var W = this.state.canvasWidth;
-        var H = this.state.canvasHeight;
-        canvas.width = W;
-        canvas.height = H;
+        var W = this.state.width;
+        var H = this.state.height;
 
         //snowflake particles
         var mp = 25; //max particles
@@ -92,18 +90,26 @@ export default React.createClass({
     },
 
     componentWillUnmount: function() {
-        this.state.canvasCtx.clearRect(0, 0, this.state.canvasWidth, this.state.canvasHeight);
+        this.state.canvasCtx.clearRect(0, 0, this.state.width, this.state.height);
         clearInterval(this.state.intervalTracker);
     },
 
-	render: function() {
-		var snowStyles = {
-			position: 'absolute',
-    		top: 0
-		}
-		return (
-			<canvas className="react-snow-effect-canvas" style={snowStyles}></canvas>
-		)
-	}
+    render: function() {
+        var snowStyles = {
+            margin: 0,
+            padding: 0,
+            pointerEvents: 'none',
+            position: 'absolute',
+            top: 0,
+            zIndex: 1
+        };
 
+        return (
+            <canvas className="react-snow-effect-canvas"
+                    style={snowStyles}
+                    width={this.state.width}
+                    height={this.state.height}>
+            </canvas>
+        );
+    }
 });
