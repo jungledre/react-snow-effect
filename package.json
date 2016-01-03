@@ -1,11 +1,11 @@
 {
   "name": "react-snow-effect",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "let it snow",
   "main": "lib/snow.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepublish": "./node_modules/.bin/babel -d lib/ src/"
+    "prepublish": "babel src -d lib"
   },
   "keywords": [
     "snow",
@@ -17,15 +17,16 @@
   ],
   "author": "Adrienne Kerr <adrie.k@gmail.com>",
   "license": "MIT",
-  "repository" : {
-    "type" : "git",
-    "url" : "https://github.com/jungledre/react-snow-effect"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jungledre/react-snow-effect"
   },
   "dependencies": {
     "react": "^0.14.3"
   },
   "devDependencies": {
     "babel-cli": "^6.3.17",
+    "babel-plugin-add-module-exports": "^0.1.2",
     "babel-preset-es2015": "^6.3.13",
     "babel-preset-react": "^6.3.13"
   }
