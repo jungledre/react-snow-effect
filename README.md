@@ -1,8 +1,38 @@
-# react-snow-effect
+#React Snow Effect Component
 
-html5 canvas snow effect as a react component!
+###How do I use this?
+```
+npm install react-snow-effect
+```
 
-http://thecodeplayer.com/walkthrough/html5-canvas-snow-effect
+Include the component in your main app component outside of any containers.
+```js
+// MyApp.js
+
+var React = require('react');
+var Snow = require('react-snow-effect');
+
+var MyApp = React.createClass({
+	render: function() {
+		return (
+			<div className='my-fancy-app'>
+				<Snow />
+				<div className='container'>
+					{appContents}
+				</div>
+			</div>
+		)
+	}
+}
+
+module.exports = MyApp;
+```
+
+Disclaimer! This code borrows heavily from a lovely [html5-canvas-snow-effect] (http://thecodeplayer.com/walkthrough/html5-canvas-snow-effect) tutorial
+
+If you have any problems, please let me know. This is my first npm package and I'd love for it to work for everyone!
+
+:snowflake: :snowflake: Happy Holidays! :snowman: :snowflake: :snowflake:
 
                          *  .  *
                        . _\/ \/_ .
