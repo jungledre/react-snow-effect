@@ -99,7 +99,7 @@ export default React.createClass({
             margin: 0,
             padding: 0,
             pointerEvents: 'none',
-            position: 'absolute',
+            position: 'fixed',
             top: 0,
             zIndex: 1
         };
