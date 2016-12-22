@@ -1,2 +1,4 @@
 /node_modules/
-/playground/
+src/
+.babelrc
+.travis.yml

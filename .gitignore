@@ -18,6 +18,5 @@ jsconfig.json
 .idea
 
 # app specific
-playground/bundle.js.map
 bundle.js
 npm-debug.log
