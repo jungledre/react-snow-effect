@@ -1,4 +1,5 @@
-#React Snow Effect Component
+#React Snow Effect Component &middot; [![Build Status](https://travis-ci.org/jungledre/react-snow-effect.svg?branch=master)](https://travis-ci.org/jungledre/react-snow-effect) [![npm version](https://img.shields.io/npm/v/react-snow-effect.svg?style=flat)](https://www.npmjs.com/package/react-snow-effect) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md#pull-requests)
+
 
 ![alt text](http://i.imgur.com/S1cpIi5.gif)
 
