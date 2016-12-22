@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Snow from 'react-snow-effect';
+import Snow from './src/snow';
 
 ReactDOM.render(<Snow />, document.getElementsByClassName('react-snow-effect')[0]);
 
