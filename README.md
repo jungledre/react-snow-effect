@@ -1,5 +1,8 @@
 #React Snow Effect Component
 
+![alt text](http://i.imgur.com/S1cpIi5.gif)
+
+
 ###How do I use this?
 ```
 npm install react-snow-effect
