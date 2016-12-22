@@ -5,6 +5,10 @@ node_js:
   - "0.12"
   - "4.2"
 
+install:
+  - npm install -g babel-cli
+  - npm install
+
 script:
   - npm --version
   - npm run prepublish
