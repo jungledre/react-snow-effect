@@ -1,9 +1,19 @@
 language: node_js
 
+cache:
+  directories:
+    - node_modules
+
+notifications:
+  email: false
+
 node_js:
-  - "0.10"
-  - "0.12"
-  - "4.2"
+  - '7'
+  - '6'
+  - '4'
+
+before_script:
+  - npm prune
 
 install:
   - npm install -g babel-cli
@@ -13,7 +23,5 @@ script:
   - npm --version
   - npm run prepublish
 
-deploy:
-    provider: npm
-    email: adrie.k@gmail.com
-    api_key: NPM_REGISTRY_AUTH_TOKEN
+after_success:
+  - npm run semantic-release

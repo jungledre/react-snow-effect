@@ -1,6 +1,6 @@
 {
   "name": "react-snow-effect",
-  "version": "1.1.0",
+  "version": "0.0.0-semantically-released",
   "description": "let it snow",
   "main": "lib/snow.js",
   "scripts": {
@@ -9,7 +9,8 @@
     "compile": "webpack",
     "prepare": "npm install react-snow-effect@latest $$ npm run compile",
     "flow": "flow",
-    "start": "webpack-dev-server"
+    "start": "webpack-dev-server",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "keywords": [
     "snow",
@@ -39,6 +40,7 @@
     "babel-loader": "^6.2.10",
     "babel-polyfill": "^6.9.1",
     "webpack": "^1.12.9",
-    "webpack-dev-server": "^1.14.0"
+    "webpack-dev-server": "^1.14.0",
+    "semantic-release": "^6.3.2"
   }
 }
