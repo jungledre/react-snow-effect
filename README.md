@@ -1,4 +1,4 @@
-#React Snow Effect Component &middot; [![Build Status](https://travis-ci.org/jungledre/react-snow-effect.svg?branch=master)](https://travis-ci.org/jungledre/react-snow-effect) [![npm version](https://img.shields.io/npm/v/react-snow-effect.svg?style=flat)](https://www.npmjs.com/package/react-snow-effect) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md#pull-requests)
+#React Snow Effect &middot; [![Build Status](https://travis-ci.org/jungledre/react-snow-effect.svg?branch=master)](https://travis-ci.org/jungledre/react-snow-effect) [![npm version](https://img.shields.io/npm/v/react-snow-effect.svg?style=flat)](https://www.npmjs.com/package/react-snow-effect) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md#pull-requests)
 
 
 ![alt text](http://i.imgur.com/S1cpIi5.gif)
@@ -46,10 +46,10 @@ If you have any problems, please let me know. This is my first npm package and I
             \\//       '  /\ /\  '         _\_\_\/\/_/_/_
        _.__\\\///__._    *  '  *            / /_/\/\_\ \
         '  ///\\\  '                           _/\/\_
-            //\\                               /\  /\ 
+            //\\                               /\  /\
           ./    \.             ._    _.       '      '
           ''    ''             (_)  (_)                  <> \  / <>
-                                .\::/.                   \_\/  \/_/ 
+                                .\::/.                   \_\/  \/_/
                .:.          _.=._\\//_.=._                  \\//
           ..   \o/   ..      '=' //\\ '='             _<>_\_\<>/_/_<>_
           :o|   |   |o:         '/::\'                 <> / /<>\ \ <>
@@ -59,13 +59,13 @@ If you have any problems, please let me know. This is my first npm package and I
           :o|   |   |o:                   /\_\\><//_/\
           ''   /o\   ''     '.|  |.'      \/ //><\\ \/
                ':'        . ~~\  /~~ .       _//\\_
-                          _\_._\/_._/_      \_\  /_/ 
+                          _\_._\/_._/_      \_\  /_/
                            / ' /\ ' \                   \o/
            o              ' __/  \__ '              _o/.:|:.\o_
       o    :    o         ' .'|  |'.                  .\:|:/.
         '.\'/.'                 .                 -=>>::>o<::<<=-
         :->@<-:                 :                   _ '/:|:\' _
-        .'/.\'.           '.___/*\___.'              o\':|:'/o 
+        .'/.\'.           '.___/*\___.'              o\':|:'/o
       o    :    o           \* \ / */                   /o\
            o                 >--X--<
                             /*_/ \_*\
