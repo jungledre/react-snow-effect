@@ -41,10 +41,14 @@
     "enzyme": "^2.7.0",
     "flow-bin": "^0.30.0",
     "jest": "^18.0.0",
+    "pre-commit": "^1.2.2",
     "react-addons-test-utils": "^15.4.1",
     "react-test-renderer": "^15.4.1",
     "semantic-release": "^6.3.2",
     "webpack": "^1.12.9",
     "webpack-dev-server": "^1.14.0"
-  }
+  },
+  "pre-commit": [
+    "test"
+  ]
 }
