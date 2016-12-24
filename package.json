@@ -2,9 +2,9 @@
   "name": "react-snow-effect",
   "version": "0.0.0-semantically-released",
   "description": "let it snow",
-  "main": "lib/snow.js",
+  "main": "lib/Snow.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "prepublish": "babel src -d lib",
     "compile": "webpack",
     "prepare": "npm install react-snow-effect@latest $$ npm run compile",
@@ -17,7 +17,6 @@
     "effect",
     "snow-effect",
     "react",
-    "snow",
     "react-snow"
   ],
   "author": "Adrienne Kerr <adrie.k@gmail.com>",
@@ -32,15 +31,20 @@
   },
   "devDependencies": {
     "babel-cli": "^6.3.17",
-    "babel-plugin-add-module-exports": "^0.1.2",
-    "babel-preset-es2015": "^6.9.0",
-    "babel-preset-react": "^6.5.0",
-    "flow-bin": "^0.30.0",
     "babel-core": "^6.9.1",
+    "babel-jest": "^18.0.0",
     "babel-loader": "^6.2.10",
+    "babel-plugin-add-module-exports": "^0.1.2",
     "babel-polyfill": "^6.9.1",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "enzyme": "^2.7.0",
+    "flow-bin": "^0.30.0",
+    "jest": "^18.0.0",
+    "react-addons-test-utils": "^15.4.1",
+    "react-test-renderer": "^15.4.1",
+    "semantic-release": "^6.3.2",
     "webpack": "^1.12.9",
-    "webpack-dev-server": "^1.14.0",
-    "semantic-release": "^6.3.2"
+    "webpack-dev-server": "^1.14.0"
   }
 }
