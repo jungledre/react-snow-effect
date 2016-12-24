@@ -1,0 +1,23 @@
+{
+  "extends": "airbnb",
+  "plugins": [
+      "react",
+      "jsx-a11y",
+      "import",
+      "jest"
+  ],
+  "env": {
+    "jasmine": true,
+    "jest": true
+  },
+  "globals": {
+    "document": true
+  },
+  "rules": {
+    "jest/no-identical-title": 2,
+    "jest/no-exclusive-tests": 2,
+    "comma-dangle": ["error", "never"],
+    "import/no-named-as-default": 0,
+    "import/no-named-as-default-member": 0
+  }
+}
